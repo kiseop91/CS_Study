@@ -7,8 +7,12 @@
 ﻿# commit 명령어 정리
  
 1.git add [파일 또는 폴더명]        // 빈폴더는 add가 안됩니다. 폴더안에 파일하나 만들어주세요
+
 2.git commit -m "간단한메세지입력"  // 메세지입력꼭해주세요
+
 3.git status                       // 커밋내용확인
+
 4.git push                         // 리포지토리 최종업로드
 
 commit이 안될때 -> git pull 후 재시도
+
