@@ -12,7 +12,7 @@
 >> 3.4 touch '자기이름'.txt  
 >> 3.5 vi '자기이름'.txt  
 >> 3.6 i(편집하기) > 글귀 쓰기 > esc > :wq!  
->> 3.7 cd ../ (goind to CS_Study)  
+>> 3.7 cd ../ (back to CS_Study)  
 >4. git init 으로 CS_Study 폴더를 리포지토리로 만들어주기 
 # commit 명령어 정리(to update a file or folder)
 
