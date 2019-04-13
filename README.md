@@ -13,13 +13,13 @@
 >1. 폴더를 생성할 디렉토리로 이동 (cd '만든 파일이름')
 >2. git clone https://github.com/kiseop91/CS_Study.git 
 >3. CS_Study 디렉토리 아래 자기이름 폴더 만들어서 커밋
->cd CS_study
->mkdir '자기이름 파일(ex kiseop)'
->cd '자기이름 파일'
->touch '자기이름'.txt
->vi '자기이름'.txt
->i(편집하기) > 글귀 쓰기 > esc > :wq!
->cd ../ (goind to CS_Study)
+> -cd CS_study
+> -mkdir '자기이름 파일(ex kiseop)'
+> -cd '자기이름 파일'
+> -touch '자기이름'.txt
+> -vi '자기이름'.txt
+> -i(편집하기) > 글귀 쓰기 > esc > :wq!
+> -cd ../ (goind to CS_Study)
 >4. git init 으로 CS_Study 폴더를 리포지토리로 만들어주기
 # commit 명령어 정리
 
