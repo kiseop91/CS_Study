@@ -1,4 +1,4 @@
-﻿# CS_Study
+﻿﻿# CS_Study
 
 1. 폴더를 생성할 디렉토리로 이동
 2. git clone https://github.com/kiseop91/CS_Study.git
@@ -10,4 +10,4 @@
 3.git status                       // 커밋내용확인
 4.git push                         // 리포지토리 최종업로드
 
-
+commit이 안될때 -> git pull 후 재시도
