@@ -6,7 +6,7 @@
 
 # commit 명령어 정리
 
->1. git pull //저장소 
+>1. git pull  (저장소 항상 최신상태로) 
 >2. git add [파일 또는 폴더명]        
 >3. git commit -m "간단한메세지입력"  
 >4. git status                    
