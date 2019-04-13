@@ -1,12 +1,12 @@
-- CS_Study ---  kiseop
-           :
-           ---  jakyung
-           :
-           ---  junho
-           :
-           ---  Operating System
-               :
-               ----Study.md
+- CS_Study ---  kiseop 
+           : 
+           ---  jakyung 
+           : 
+           ---  junho  
+           : 
+           ---  Operating System 
+               : 
+               ----Study.md 
  ***              
 # CS_Study
 
