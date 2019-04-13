@@ -25,11 +25,11 @@
 >** the important thing to know **
 >> before you update a file or folder must commmit  *'git pull'*    
  
-# Algorithm 🧾
+# Algorithm 📃 
 >1. 알고리즘 문제는 각자 문제를 고르고 개별 폴더에 업로드합니다.
 >2. 하루 2문제씩 푸는 것을 목표로 합니다.
  
-# Operating System 📟 
+# Operating System 🖥  
 
 >1. 매주 학습할 내용을 정리해서 3문제 정도 질문을 만들어서 업로드합니다.
 >2. 스터디 후 정리된 내용을 Operating System폴더에 md파일로 정리해서 보관합니다.
