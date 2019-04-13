@@ -6,7 +6,7 @@
 
 # commit 명령어 정리
  
-> 1. git add [파일 또는 폴더명]        
+>1. git add [파일 또는 폴더명]        
   2. git commit -m "간단한메세지입력"  
   3. git status                    
   4. git push                       
