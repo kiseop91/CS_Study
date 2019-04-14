@@ -1,6 +1,10 @@
 ﻿ ***              
 # Welcome to CS_Study 🙌
+<<<<<<< HEAD
  
+=======
+   
+>>>>>>> 94327c99d59de640944b0b1bae6b69cdbfa21604
 >1. 폴더를 생성할 디렉토리로 이동 
 >> 1-1 mkdir 'the file u are going to make'  
 >> 1-2 cd 'the file u are going to make' (move to 'the file')  
