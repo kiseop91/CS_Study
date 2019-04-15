@@ -41,3 +41,22 @@
     suspened상태는 wait상태와 마찬가지로 cpu제어권이 없는 상태지만, wait상태와 달리 메모리를 비워두고 
     일시정시상태에 들어가는것을 의미한다. 
 ```
+![context_switch](./pic/context_switch.PNG) 
+
+```
+    3. context switching
+    현대 컴퓨터는 하나의 프로세스만 사용하는 것이아닌 다중프로세스를 지원하고있고 ,time-sharing을 통해 
+    사용자가 동시에 여러작업을 할수있도록 지원한다. 따라서 프로세스A가 실행되면서 프로세스B를 실행하기위해 
+    한정된 자원인 cpu를 번갈아가며 사용하게된다. 이 때 cpu가 프로세스의 어디까지 실행했는가를 기억해둬야지만 
+    다시 그 프로세스가 cpu를 얻었을때 그시점부터 동작할수있게된다. 이를 위해 PCB(process controll block)이라는 
+    자료구조가 존재하고, PCB에 다양한 프로세스의 정보가 저장되어진다. 프로세스A가 프로세스B에게 자리를 양보할 때 
+    PCB에 이러한 문맥을 저장해두고, cpu는 프로세스B의 PCB를 불러와 instruction을 수행한다. 이러한 문맥교환을 
+    context swithing이라 한다. 
+```
+![scheduler](./pic/scheduler.PNG) 
+ 
+ ```
+     4. 스케줄러
+     
+ ```
+     
