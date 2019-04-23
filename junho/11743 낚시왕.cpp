@@ -125,7 +125,7 @@ void board_init() {
 
 int main() {
 	set_board(); //테스트케이스는 정상작동이지만 이부분을 주석처리 하지않으면 런타임에러 발생
-
+	board_print();
 	for (int x = 1; x <= C; x++) {
 		fishing(x);
 		check_init();
