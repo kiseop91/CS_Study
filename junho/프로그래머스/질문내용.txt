@@ -1,0 +1,25 @@
+해당 코드를 돌렸을때 
+int n이 100000 (최대 입력 값) 일 때 오버플로우가 발생합니다,,,,
+해결방법을 모르겠습니다 ㅠ
+
+
+//코드
+#include <string>
+#include <vector>
+#include <iostream>
+
+using namespace std;
+long long v[10000005];
+int a = 1234567;
+
+int solution(int n) {
+	long long answer = 0;
+	v[0] = 0;
+	v[1] = 1;
+	for (long long i = 2; i <= n; i++) {
+		v[i] = v[i - 2] + v[i - 1];
+	}
+	answer = (v[n] % a);
+
+	return answer;
+}
