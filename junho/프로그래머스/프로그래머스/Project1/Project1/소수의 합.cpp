@@ -3,21 +3,31 @@ using namespace std;
 
 vector<bool> v;
 
-long long solution(int N) {
-	long long answer = 0;
-	for (int i = 0; i <= N; i++) {
+int main()
+{
+	int m, n;
+	cin >> m >> n;
+
+	for (int i = 0; i <= n; i++) {
 		v.push_back(true);
 	}
 
-	for (int i = 2; i <= N; i++) {
-		for (int j = i * 2; j <= N; j = j + i) {
-			if (v[j] == false) { continue; }
-			v[j] = false;
+	for (int i = 2; i <= n; i++) {
+		for (int j = i * 2; j <= n; j = j + i) {
+			if (v[j] == 0) { continue; }
+			v[j] = 0;
 		}
-		if (v[i] == false) { continue; }
-		answer += i;
 	}
-	return answer;
-}
+	vector<int> result;
+	for (int i = m; i <= n; i++)
+	{
+		if (v[i] == 0) { continue; }
+		result.push_back(i);
+	}
+	for (int i = 0; i < result.size(); i++) {
+		if (i == result.size() - 1) { printf("%d", result[i]); return 0; }
+		printf("%d\n", result[i]);
+	}
 
+}
 //bool 타입을 최대한 사용하도록 하자 
