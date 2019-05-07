@@ -1,0 +1,4 @@
+﻿  탑.cpp
+c:\users\강준호\source\repos\프로그래머스2\프로그래머스2\탑.cpp(10): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\강준호\source\repos\프로그래머스2\프로그래머스2\탑.cpp(17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  프로그래머스2.vcxproj -> C:\Users\강준호\source\repos\프로그래머스2\Debug\프로그래머스2.exe
