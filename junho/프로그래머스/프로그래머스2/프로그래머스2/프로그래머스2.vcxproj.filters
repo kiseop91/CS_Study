@@ -24,5 +24,23 @@
     <ClCompile Include="124 나라의 숫자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Documents\카카오톡 받은 파일\1to5\4번(전구).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Documents\카카오톡 받은 파일\1to5\5번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Documents\카카오톡 받은 파일\1to5\1번(알파벳).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Documents\카카오톡 받은 파일\1to5\2번(회의장소).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\..\Documents\카카오톡 받은 파일\1to5\3번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3번 연습.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
