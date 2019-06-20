@@ -1,0 +1,45 @@
+package baekjoon;
+import java.util.*;
+import java.io.*;
+public class P1541 {
+
+	public static void main(String[] args) throws Exception{
+		//Scanner sc = new Scanner(System.in);
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String sen = br.readLine();
+		
+		StringTokenizer str = new StringTokenizer(sen,"+-");
+		String[] sa = sen.split("");
+		
+		Queue<Integer> numberQu = new ArrayDeque<Integer>();
+		Queue<String> qu = new ArrayDeque<String>();
+		int firstNumber = Integer.parseInt(str.nextToken());
+		while(str.hasMoreTokens()) {
+			String s = str.nextToken();
+			numberQu.add(Integer.parseInt(s));
+		}
+		for(String s : sa) {
+			if(s.equals("-") || s.equals("+")) {
+				//System.out.println(s);
+				qu.add(s);
+			}
+		}
+		int flag = 0;
+		
+		while(!qu.isEmpty()) {
+			int n = numberQu.poll();
+			String sign = qu.poll();
+			if(flag == 0 && sign.equals("+")) {
+				firstNumber +=n;
+			}else {
+				flag = 1;
+				firstNumber -=n;
+			}
+		}
+		System.out.println(firstNumber);
+		
+
+	}
+
+}
+
