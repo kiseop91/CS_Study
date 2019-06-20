@@ -48,5 +48,14 @@
     <ClCompile Include="롤러코스터.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="숫자 카드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자 카드 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="하노이 탑 이동 순서.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
