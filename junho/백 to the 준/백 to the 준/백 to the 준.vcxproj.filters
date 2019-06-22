@@ -57,5 +57,11 @@
     <ClCompile Include="하노이 탑 이동 순서.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="종이의 개수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="트리의 순회.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
