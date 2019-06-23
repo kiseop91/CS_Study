@@ -63,5 +63,17 @@
     <ClCompile Include="트리의 순회.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="쿼드트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="별 찍기 10.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="별 찍기 11.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Z.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
