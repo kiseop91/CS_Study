@@ -93,5 +93,20 @@
     <ClCompile Include="날짜 계산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="리모컨.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="차이를 최대로.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="외판원 순회 2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="로또.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1, 2, 3, 더하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
