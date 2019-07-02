@@ -1,31 +1,154 @@
 #include <iostream>
-#include <vector>
+#include <queue>
 
 using namespace std;
-
-int N;//동전의 종류의 개수
-int K;//목표 금액
-vector<int> M; //화폐의 가치
-int cnt; //동전의 개수
-
+bool ans[201];
+bool check[201][201];
 
 int main() {
-	cin >> N >> K;
-	int temp = 0;
+	int a, b, c;
+	cin >> a >> b >> c;
+	int sum = c;
+	queue<pair<int, int>> q;
+	q.push(make_pair(0, 0));
+	check[0][0] = true;
+	ans[c] = true;
+	while (!q.empty()) {
+		int x = q.front().first;
+		int y = q.front().second;
+		int z = sum - x - y;
+		q.pop();
 
-	for (int i = 0; i < N; i++) {
-		cin >> temp;
-		M.push_back(temp);
+		int nx, ny, nz;
+		nx = x;
+		ny = y;
+		nz = z;
+
+		ny += nx;
+		nx = 0;
+
+		if (ny >= b) {
+			nx = ny - b;
+			ny = b;
+		}
+
+		if (!check[nx][ny]) {
+			check[nx][ny] = true;
+			q.push(make_pair(nx, ny));
+			if (nx == 0) {
+				ans[nz] = true;
+			}
+		}
+
+
+
+		nx = x;
+		ny = y;
+		nz = z;
+
+		// x -> z
+		nz += nx;
+		nx = 0;
+		if (nz >= c) {
+			nx = nz - c;
+			nz = c;
+		}
+
+		if (!check[nx][ny]) {
+			check[nx][ny] = true;
+			q.push(make_pair(nx, ny));
+			if (nx == 0) {
+				ans[nz] = true;
+			}
+		}
+
+
+
+		nx = x;
+		ny = y;
+		nz = z;
+		// y -> x
+		nx += ny;
+		ny = 0;
+		if (nx >= a) {
+			ny = nx - a;
+			nx = a;
+		}
+
+		if (!check[nx][ny]) {
+			check[nx][ny] = true;
+			q.push(make_pair(nx, ny));
+			if (nx == 0) {
+				ans[nz] = true;
+			}
+		}
+
+		nx = x;
+		ny = y;
+		nz = z;
+		// y -> z
+		nz += ny;
+		ny = 0;
+
+		if (nz >= c) {
+			ny = nz - c;
+			nz = c;
+		}
+		if (!check[nx][ny]) {
+			check[nx][ny] = true;
+			q.push(make_pair(nx, ny));
+			if (nx == 0) {
+				ans[nz] = true;
+			}
+		}
+
+
+		nx = x;
+		ny = y;
+		nz = z;
+
+		//z -> x
+		nx += nz;
+		nz = 0;
+		if (nx >= a) {
+			nz = nx - a;
+			nx = a;
+		}
+		if (!check[nx][ny]) {
+			check[nx][ny] = true;
+			q.push(make_pair(nx, ny));
+			if (nx == 0) {
+				ans[nz] = true;
+			}
+		}
+
+
+		nx = x;
+		ny = y;
+		nz = z;
+		// z -> y
+		ny += nz;
+		nz = 0;
+		if (ny >= b) {
+			nz = ny - b;			
+			ny = b;
+		}
+
+		if (!check[nx][ny]) {
+			check[nx][ny] = true;
+			q.push(make_pair(nx, ny));
+			if (nx == 0) {
+				ans[nz] = true;
+			}
+		}
 	}
-	for (int i = N-1; i >= 0; i--) {
-		temp = K / M[i];
-		if (temp == 0) { continue; }
-		cnt +=temp;
-		temp = temp * M[i];
-		K -= temp;
+
+	for (int i = 0; i <= c; i++) {
+		if (ans[i]) {
+			cout << i << ' ';
+		}
 	}
-	cout << cnt;
-
-
+	cout << '\n';
+	return 0;
 
 }
