@@ -47,6 +47,7 @@ int main() {
 	long long right = _max;
 	long long mid;
 	
+	
 	while (left <= right) {
 		mid = (left + right) / 2;
 		cout << mid;
