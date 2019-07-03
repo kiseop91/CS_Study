@@ -1,6 +1,2 @@
-﻿  예산.cpp
-c:\users\강준호\desktop\git_cs\cs_study\junho\백 to the 준\백 to the 준\예산.cpp(10): warning C4244: '인수': '__int64'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\강준호\desktop\git_cs\cs_study\junho\백 to the 준\백 to the 준\예산.cpp(14): warning C4244: '인수': '__int64'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\강준호\desktop\git_cs\cs_study\junho\백 to the 준\백 to the 준\예산.cpp(23): warning C4244: '인수': '__int64'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\강준호\desktop\git_cs\cs_study\junho\백 to the 준\백 to the 준\예산.cpp(26): warning C4244: '인수': '__int64'에서 'const unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  백 to the 준.vcxproj -> C:\Users\강준호\Desktop\git_cs\CS_Study\junho\백 to the 준\Debug\백 to the 준.exe
+﻿  중량제한.cpp
+  백 to the 준.vcxproj -> C:\Users\dkssk\Desktop\CS_STUDY\CS_Study\junho\백 to the 준\Debug\백 to the 준.exe

@@ -43,5 +43,6 @@
     <ClCompile Include="나무 자르기.cpp" />
     <ClCompile Include="공유기 설치.cpp" />
     <ClCompile Include="예산.cpp" />
+    <ClCompile Include="중량제한.cpp" />
   </ItemGroup>
 </Project>
