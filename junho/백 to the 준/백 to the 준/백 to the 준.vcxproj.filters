@@ -44,5 +44,6 @@
     <ClCompile Include="공유기 설치.cpp" />
     <ClCompile Include="예산.cpp" />
     <ClCompile Include="중량제한.cpp" />
+    <ClCompile Include="검열.cpp" />
   </ItemGroup>
 </Project>
