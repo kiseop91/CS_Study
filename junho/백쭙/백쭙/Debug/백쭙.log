@@ -1,0 +1,3 @@
+﻿  중량제한.cpp
+c:\users\강준호\source\repos\백쭙\백쭙\중량제한.cpp(23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  백쭙.vcxproj -> C:\Users\강준호\source\repos\백쭙\Debug\백쭙.exe

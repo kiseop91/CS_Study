@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  검열.cpp
 C:\Users\dkssk\Desktop\CS_STUDY\CS_Study\junho\백 to the 준\백 to the 준\검열.cpp(30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
 C:\Users\dkssk\Desktop\CS_STUDY\CS_Study\junho\백 to the 준\백 to the 준\검열.cpp(37): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
@@ -6,3 +7,6 @@ C:\Users\dkssk\Desktop\CS_STUDY\CS_Study\junho\백 to the 준\백 to the 준\검
 C:\Users\dkssk\Desktop\CS_STUDY\CS_Study\junho\백 to the 준\백 to the 준\검열.cpp(76): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
 C:\Users\dkssk\Desktop\CS_STUDY\CS_Study\junho\백 to the 준\백 to the 준\검열.cpp(80): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   백 to the 준.vcxproj -> C:\Users\dkssk\Desktop\CS_STUDY\CS_Study\junho\백 to the 준\Debug\백 to the 준.exe
+=======
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(67,5): error MSB8020: v142에 대한 빌드 도구(플랫폼 도구 집합 = 'v142')를 찾을 수 없습니다. v142 빌드 도구를 사용하여 빌드하려면 v142 빌드 도구를 설치하십시오.  [프로젝트] 메뉴를 선택하거나 솔루션을 마우스 오른쪽 단추로 클릭한 다음 "솔루션 대상 변경"을 선택하여 현재 Visual Studio 도구로 업그레이드할 수도 있습니다.
+>>>>>>> 79685b9a1f61b14d190e2ae45a4116f6eefde464
