@@ -45,5 +45,7 @@
     <ClCompile Include="예산.cpp" />
     <ClCompile Include="중량제한.cpp" />
     <ClCompile Include="검열.cpp" />
+    <ClCompile Include="바이러스.cpp" />
+    <ClCompile Include="집합의 표현.cpp" />
   </ItemGroup>
 </Project>
