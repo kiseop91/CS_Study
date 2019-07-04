@@ -5,8 +5,9 @@
 using namespace std;
 
 int main() {
-	string a = "aba";
-	string T = "ababacccababa";
+	string a;//= "aba";
+	string T;//= "ababacccabaababaaa";
+	cin >> a >> T;
 
 	deque<char> left;
 	deque<char> right;
@@ -21,7 +22,6 @@ int main() {
 		while (low <= high)
 		{
 			left.push_back(T[low]);
-			cout << "left.push" << T[low] << endl;
 			low += 1;
 		
 			bool flag = false;
@@ -35,7 +35,6 @@ int main() {
 				}
 				if (flag) {
 					for (int i = 0; i < a.size(); i++) {
-						cout << "left.pop()" << left.back() << endl;
 						left.pop_back();
 					}
 					break;
@@ -81,6 +80,22 @@ int main() {
 		ans += right[i];
 	}
 
+
+	for (int i = 0; i < ans.size() - a.size(); i++) {
+		bool flag = true;
+		int z = i;
+		if (ans.size() >= a.size()) {
+			for (int j = 0; j < a.size(); j++) {
+				if (a[j] != ans[i + j]) {
+					flag = false;
+					break;
+				}
+			}
+			if (flag == true) {
+				ans.erase(z,z+a.size());
+			}
+		}
+	}
 	cout << ans;
 
 }
