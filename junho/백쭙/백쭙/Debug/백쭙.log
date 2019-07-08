@@ -1,6 +1,2 @@
-﻿  폭발 문자열.cpp
-c:\users\강준호\desktop\git_cs\cs_study\junho\백쭙\백쭙\폭발 문자열.cpp(22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\강준호\desktop\git_cs\cs_study\junho\백쭙\백쭙\폭발 문자열.cpp(27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\강준호\desktop\git_cs\cs_study\junho\백쭙\백쭙\폭발 문자열.cpp(34): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\강준호\desktop\git_cs\cs_study\junho\백쭙\백쭙\폭발 문자열.cpp(42): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+﻿  최대 힙.cpp
   백쭙.vcxproj -> C:\Users\강준호\Desktop\git_cs\CS_Study\junho\백쭙\Debug\백쭙.exe

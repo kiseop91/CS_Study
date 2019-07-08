@@ -33,5 +33,11 @@
     <ClCompile Include="히스토그램에서 가장 큰 직사각형.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="최대 힙.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="최소 힙.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
