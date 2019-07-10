@@ -42,5 +42,14 @@
     <ClCompile Include="이동하기.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="점프.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="팰린드롬.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="팰린드롬 분할.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
