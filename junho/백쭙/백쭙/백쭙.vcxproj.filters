@@ -51,5 +51,11 @@
     <ClCompile Include="팰린드롬 분할.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="자두나무.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="고층 빌딩.cpp">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
